@@ -1,0 +1,85 @@
+/* CSS Document */
+body{
+	font-family: 'Poppins', sans-serif;
+	padding: 5em 0;
+	font-size: 15px;
+	margin: 0;
+}
+
+header{
+	text-align: center;
+}
+
+.title{
+	font-size: 1.5em;
+	color: hsl(234, 12%, 34%);
+	font-weight: 200;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	width: 375px;
+
+}
+
+.title-span{
+	font-weight: 600;
+	
+}
+
+.header-intro{
+	box-sizing: border-box;
+	font-size: 15px;
+	color: hsl(229, 6%, 66%);
+	font-weight: 200;
+	line-height: 1.6em;
+	padding: 0px 1.5em;
+	width: 375px;
+	margin: 1em auto;
+	
+}
+
+.cards_container{
+  padding: 4em 0;
+}
+
+div.card{
+	box-sizing: border-box;
+	margin: 0 auto;
+	width:315px;
+	border-radius: 6px;
+	box-shadow: 0 10px 15px 0px hsl(212, 40%, 90%);
+	padding: 1.5em 2em;
+	margin-bottom: 2em;
+}
+
+.cyan-card{
+	
+	border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.red-card{
+	border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.orange-card{
+	border-top: 4px solid hsl(34, 97%, 64%);
+}
+.blue-card{
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+div.card h2, div.card p{
+	margin:0 ;
+	
+}
+
+div.card h2{
+	font-size:21px;
+	color: hsl(234, 12%, 34%);
+}
+
+div.card p{
+	padding-top: 10px;
+	font-size:13px;
+	line-height: 26px;
+	color:hsl(229, 6%, 66%);
+}
