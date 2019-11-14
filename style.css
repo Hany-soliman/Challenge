@@ -26,14 +26,16 @@ header{
 }
 
 .header-intro{
-	box-sizing: border-box;
+	
 	font-size: 15px;
 	color: hsl(229, 6%, 66%);
 	font-weight: 200;
 	line-height: 1.6em;
-	padding: 0px 1.5em;
-	width: 375px;
-	margin: 1em auto;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	width: 35%;
+	margin-right: auto;
+	margin-left: auto;
 	
 }
 
