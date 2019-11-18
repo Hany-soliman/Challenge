@@ -86,7 +86,7 @@ div.card p{
 	color:hsl(229, 6%, 66%);
 }
 
-div.card img{
+div.card-icon{
 	display: block;
 	width:55px;
 	margin: 2.5em 0 0 auto;
