@@ -89,7 +89,7 @@ div.card img {
 
 @media screen and (min-width: 1024px) {
   .cards_container {
-    width: 1140px;
+    width: 1050px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
