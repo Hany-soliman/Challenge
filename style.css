@@ -1,105 +1,101 @@
 /* CSS Document */
-body{
-	font-family: 'Poppins', sans-serif;
-	padding: 5em 0;
-	font-size: 15px;
-	margin: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 5em 0;
+  font-size: 15px;
+  margin: 0;
 }
 
-header{
-	text-align: center;
+header {
+  text-align: center;
 }
 
-.title{
-	font-size: 2em;
-	color: hsl(234, 12%, 34%);
-	font-weight: 200;
-	letter-spacing: 1px;
-	margin: 0 auto;
-	width: 375px;
-
+.title {
+  font-size: 2em;
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0 auto;
 }
 
-.title-span{
-	font-weight: 600;
-	
+.title-span {
+  font-weight: 600;
+  display: block;
 }
 
-.header-intro{
-	
-	font-size: 15px;
-	color: hsl(229, 6%, 66%);
-	font-weight: 200;
-	line-height: 1.6em;
-	padding-bottom: 1em;
-	padding-top: 1em;
-	width: 35%;
-	margin-right: auto;
-	margin-left: auto;
-	
+.header-intro {
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  line-height: 1.6em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.cards_container{
+.cards_container {
   padding: 4em 0;
 }
 
-div.card{
-	box-sizing: border-box;
-	margin: 0 auto;
-	width:315px;
-	border-radius: 6px;
-	box-shadow: 0 10px 15px 0px hsl(212, 40%, 90%);
-	padding: 1.5em 2em;
-	margin-bottom: 2em;
+div.card {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 315px;
+  border-radius: 6px;
+  box-shadow: 0 10px 15px 0px hsl(212, 40%, 90%);
+  padding: 1.5em 2em;
+  margin-bottom: 2em;
 }
 
-.cyan-card{
-	
-	border-top: 4px solid hsl(180, 62%, 55%);
+.cyan-card {
+  border-top: 4px solid hsl(180, 62%, 55%);
 }
 
-.red-card{
-	border-top: 4px solid hsl(0, 78%, 62%);
+.red-card {
+  border-top: 4px solid hsl(0, 78%, 62%);
 }
 
-.orange-card{
-	border-top: 4px solid hsl(34, 97%, 64%);
+.orange-card {
+  border-top: 4px solid hsl(34, 97%, 64%);
 }
-.blue-card{
-	border-top: 4px solid hsl(212, 86%, 64%);
-}
-
-div.card h2, div.card p{
-	margin:0 ;
-	
+.blue-card {
+  border-top: 4px solid hsl(212, 86%, 64%);
 }
 
-div.card h2{
-	font-size:21px;
-	color: hsl(234, 12%, 34%);
+div.card h2,
+div.card p {
+  margin: 0;
 }
 
-div.card p{
-	padding-top: 10px;
-	font-size:13px;
-	line-height: 26px;
-	color:hsl(229, 6%, 66%);
+div.card h2 {
+  font-size: 21px;
+  color: hsl(234, 12%, 34%);
 }
 
-img.card-icon{
-	display: block;
-	width:55px;
-	margin: 2.5em 0 0 auto;
+div.card p {
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 26px;
+  color: hsl(229, 6%, 66%);
 }
 
-@media screen and (min-width: 1440px) {
+div.card img {
+  display: block;
+  width: 55px;
+  margin: 2.5em 0 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
   .cards_container {
     width: 1140px;
-	  margin: auto;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .cyan-card, .blue-card {
+  .cyan-card,
+  .blue-card {
     position: relative;
     top: 124px;
   }
@@ -111,58 +107,46 @@ img.card-icon{
   }
 }
 
-
-@media(max-width:380px)
-{
-
-  .cards_container
-  {
-    display:block;
-
+@media (max-width: 380px) {
+  .cards_container {
+    display: block;
   }
 
-  .cyan-card
-  {
-    margin-top:1rem;
+  .cyan-card {
+    margin-top: 1rem;
   }
-  .blue-card
-  {
-    margin-top:1rem;
+  .blue-card {
+    margin-top: 1rem;
   }
-  .cyan-card , .red-card ,.orange-card ,.blue-card
-  {
-
-    height:12.5rem;
-    width:18rem;
+  .cyan-card,
+  .red-card,
+  .orange-card,
+  .blue-card {
+    height: 12.5rem;
+    width: 18rem;
     margin-left: auto;
     margin-right: auto;
-
   }
 
-  .header{
+  .header {
     padding: 2rem 0.2rem 0 0.2rem;
   }
 
-  .title
-  {
+  .title {
     font-size: 1.5rem;
   }
 
-  .title-span
-  {
+  .title-span {
     font-size: 1.5rem;
   }
-  .header-intro
-  {
+  .header-intro {
     font-size: 1rem;
-    width:80%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-
   }
 }
 
-footer{
-	text-align: center;
-	
+footer {
+  text-align: center;
 }
